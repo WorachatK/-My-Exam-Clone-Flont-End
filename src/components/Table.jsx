@@ -209,6 +209,7 @@ const Table = () => {
 
                     <BannerPoster>
                         <img
+                            alt='ImagePoster'
                             src='https://cdn11.bigcommerce.com/s-3ldm2uoznc/images/stencil/1280x1280/products/13516/69493/track-round-dining-table-828__01721.1635275700.jpg?c=1'
                             style={{
                                 width: '100%',
@@ -226,6 +227,7 @@ const Table = () => {
                                 <Product>
                                     <ImageProduce>
                                         <img
+                                            alt='ImageProduct'
                                             src={item.photo}
                                             style={{
                                                 width: '100%',
@@ -257,6 +259,7 @@ const Table = () => {
                 <Grid item xs={12} md={8}>
                     <ImagePoster>
                         <img
+                            alt='ImagePoster'
                             src='https://i0.wp.com/literallydarling.com/wp-content/uploads/2015/10/photo-1416339684178-3a239570f315.jpg?resize=1110%2C1065&ssl=1'
                             style={{
                                 width: '100%',

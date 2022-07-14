@@ -180,6 +180,7 @@ const Deskchair = () => {
             <BannerCotainer item xs={12} md={8}>  
                 <BannerPoster>
                     <img 
+                        alt='ImageBannert'
                         src='https://secure.img1-fg.wfcdn.com/im/94658837/resize-h445%5Ecompr-r85/1546/154650730/30.00%2527%2527+Wide+Tufted+Lounge+Chair.jpg'
                         style={{
                             width:'100%',
@@ -219,6 +220,7 @@ const Deskchair = () => {
             <Grid item xs={12} md={8}>
                 <ImagePoster>
                     <img 
+                        alt='ImagePoster'
                         src='https://www.dailydreamdecor.com/wp-content/uploads/2016/10/scandi-grey-dinning.jpg'
                         style={{
                             width:'100%',
@@ -236,6 +238,7 @@ const Deskchair = () => {
                         <Product>
                             <ImageProduce>
                             <img 
+                                alt='ImageProduct'
                                 src={item.photo}
                                 style={{
                                     width:'100%',

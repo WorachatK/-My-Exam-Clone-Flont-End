@@ -28,6 +28,7 @@ const Home = () => {
     <Box sx={{position: 'relative'}}>
         <ImageContainer>
             <img 
+                alt='ImageTop'
                 src='https://img.freepik.com/premium-photo/living-room-interior-with-fabric-armchair-lamp-book-plants-empty-yellow-wall-background_41470-707.jpg?w=2000'
                 style={{
                     width:"100%",

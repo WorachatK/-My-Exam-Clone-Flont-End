@@ -210,6 +210,7 @@ const Lamp = () => {
 
                     <BannerPoster>
                         <img
+                            alt='ImageBanner'
                             src='https://cdn.shopify.com/s/files/1/1520/8686/products/beat6_5c3b8e15-cbd2-4f4b-bf63-59a64ba4305f.jpg?v=1657717853'
                             style={{
                                 width: '100%',
@@ -227,6 +228,7 @@ const Lamp = () => {
                                 <Product>
                                     <ImageProduce>
                                         <img
+                                            alt='ImageProduct'
                                             src={item.photo}
                                             style={{
                                                 width: '100%',
@@ -258,6 +260,7 @@ const Lamp = () => {
                 <Grid item xs={12} md={8}>
                     <ImagePoster>
                         <img
+                            alt='ImagePoster'
                             src='https://external-preview.redd.it/oFUwE63G_75qVc7ksQ6qFsdRZTSOola8ZZthOL6iHzY.jpg?width=960&crop=smart&auto=webp&s=f4a05fb3186173d528e36a016bf3ecaadf66a29e'
                             style={{
                                 width: '100%',
